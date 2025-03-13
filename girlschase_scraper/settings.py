@@ -12,12 +12,12 @@ BOT_NAME = "girlschase_scraper"
 SPIDER_MODULES = ["girlschase_scraper.spiders"]
 NEWSPIDER_MODULE = "girlschase_scraper.spiders"
 
-LOG_LEVEL = 'WARNING'  # Show only important warnings/errors
 FEED_FORMAT = "json"
 FEED_URI = "articles.json"
 FEED_EXPORT_ENCODING = "utf-8"
 FEED_STORE_EMPTY = False  # Don't save if no data
 FEED_EXPORT_INDENT = 2  # Pretty-print JSON
+
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
 #USER_AGENT = "girlschase_scraper (+http://www.yourdomain.com)"
