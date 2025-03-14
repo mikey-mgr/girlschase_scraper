@@ -1,0 +1,29 @@
+# Load predefined topics
+predefined_topics = [
+    "Approaching", "Attraction", "Conversation", "Dating", "Female Mind",
+    "History / Misc.", "Lifestyle", "Mate Choice", "Mindsets",
+    "Online Dating", "Relationships", "Seduction", "Sex", "Social Life", "Texting & Phones"
+]
+
+# Load subcategories for secondary topic assignment
+subcategories = {
+    "Approaching": ["Approach Anxiety", "Approach Invitations", "Approach Momentum", "Girls' Signs of Interest", "Going Out to Approach", "Lifestyle Integration", "Making an Approach", "Opening & Openers", "Rejection", "Where to Find Women", "Whom to Approach"],
+    "Attraction": ["Attraction Killers", "Attraction Windows", "Attractive Behaviors", "Attractive Clothing", "Attractive Qualities", "Attractive Vibe"],
+    "Conversation": ["Break/Build Rapport", "Conversation Tips", "Deep Conversation", "Emotion", "Example Conversations", "Flirtation & Teases", "Fractionation", "Frames", "Hook Point", "Interruptions", "Persuasion", "Reading People", "Screen & Qualify", "Sexual Topics", "Small Talk", "Storytelling", "Talking to Girls", "Talking to Men", "Women's Tests"],
+    "Dating": ["Date Followup", "Date Planning", "Dating Different Girls", "Dating Strategies", "First & Second Dates", "Getting Numbers", "How to Get Dates", "Instant Dates", "Older Women", "Proper Precautions", "Sexual Marketplace", "Younger Women", "Your Place"],
+    "Female Mind": ["Female Behaviors", "Female Perspectives", "Female Preferences", "Female Sex Drive", "Girl Types", "Loyalty", "Secret Society", "Ways Differ from Men"],
+    "History / Misc.": ["Book Reviews", "Good Habits", "Masculinity", "Reading Lists", "Sexual Philosophy", "Social Commentary", "Social Dynamics"],
+    "Lifestyle": ["Bad Habits", "Diet & Weight", "Exercise", "How to Live", "Location"],
+    "Mate Choice": ["Assortative Mating", "Mental Aspects", "Signs to Look For", "Vetting", "Women to Avoid", "Women to Choose"],
+    "Mindsets": ["Confidence", "Expert Mindsets", "Harmful Mindsets", "Independence", "Introverts/Extroverts", "Meditation/Visualization", "Mental Models", "Motivation", "Proper Focuses", "Responsibility", "Self-Sufficiency"],
+    "Online Dating": ["Best Dating Apps", "Dating App Messages", "Dating App Photos", "Dating App Strategy", "Drawbacks to Online"],
+    "Relationships": ["Behavior Shaping", "Breaking Up", "Casual", "Children", "Devotion", "Divorce", "Drama", "Early Relationship", "Fidelity / Infidelity", "Get an Ex Back", "Jealousy", "Long-Distance", "Long-Term", "Love", "Marriage", "Monogamy", "Open Relationships", "Polygyny", "Power Dynamics", "Relationship Skills", "Sexual Dynamics"],
+    "Seduction": ["Arousal", "Attainability", "Compliance", "Dancing", "Escalation", "Expectations", "Friend Zone", "Game Types", "Girl Thieving", "How to Learn", "Initiating Sex", "Kissing", "Logistics", "Making Girls Chase", "Male Competition", "Momentum", "Movie Examples", "Naturals", "NLP", "Picking Up Women", "Post-Sex Conversion", "Preselection", "Pulling Women Home", "Reports", "Resistance Handling", "Showing Interest", "Social Proof", "Speed / Pace", "Sticking Points", "Threesomes", "Touching Women", "Transitions", "Wingmanning"],
+    "Sex": ["Experience Creation", "Oral Sex", "Orgasms", "Positions", "Sexual Dysfunction", "Training Her"],
+    "Social Life": ["Avoiding Social Harm", "College / University", "Impression Management", "Keeping Friends", "Making Friends", "Network Building", "Social Behavior", "Social Rules & Norms"],
+    "Texting & Phones": ["Calling Girls", "Flakes & Ghosts", "Texting Girls", "Video Messaging"]
+}
+
+
+
+page 0-2, 342, 
