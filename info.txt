@@ -25,5 +25,7 @@ subcategories = {
 }
 
 
-
+#Crawled Pages
 page 0-2, 342, 
+
+"https://www.girlschase.com/start-here" - how-to

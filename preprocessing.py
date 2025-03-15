@@ -30,7 +30,6 @@ subcategories = {
     "Sex": ["Experience Creation", "Oral Sex", "Orgasms", "Positions", "Sexual Dysfunction", "Training Her"],
     "Social Life": ["Avoiding Social Harm", "College / University", "Impression Management", "Keeping Friends", "Making Friends", "Network Building", "Social Behavior", "Social Rules & Norms"],
     "Texting & Phones": ["Calling Girls", "Flakes & Ghosts", "Texting Girls", "Video Messaging"]
-    # Add more subcategories as needed
 }
 
 # Gambit patterns
@@ -62,6 +61,7 @@ GAMBIT_PATTERNS = [
     {"label": "GAMBIT", "pattern": [{"LOWER": "making"}, {"LOWER": "girls"}, {"LOWER": "chase"}]},
     {"label": "GAMBIT", "pattern": [{"LOWER": "wingmanning"}]},
     {"label": "GAMBIT", "pattern": [{"LOWER": "preselection"}]},
+    {"label": "GAMBIT", "pattern": [{"LOWER": "prefacing"}]},
     {"label": "GAMBIT", "pattern": [{"LOWER": "threesomes"}]},
     {"label": "GAMBIT", "pattern": [{"LOWER": "touching"}, {"LOWER": "women"}]},
     {"label": "GAMBIT", "pattern": [{"LOWER": "showing"}, {"LOWER": "interest"}]},
@@ -78,6 +78,7 @@ GAMBIT_PATTERNS = [
     {"label": "GAMBIT", "pattern": [{"LOWER": "girls"}, {"LOWER": "signs"}, {"LOWER": "of"}, {"LOWER": "interest"}]},
     {"label": "GAMBIT", "pattern": [{"LOWER": "rejection"}]},
     {"label": "GAMBIT", "pattern": [{"LOWER": "rebuff"}]},
+    {"label": "GAMBIT", "pattern": [{"LOWER": "intrigue"}]},
     {"label": "GAMBIT", "pattern": [{"LOWER": "where"}, {"LOWER": "to"}, {"LOWER": "find"}, {"LOWER": "women"}]},
     {"label": "GAMBIT", "pattern": [{"LOWER": "whom"}, {"LOWER": "to"}, {"LOWER": "approach"}]}
 ]
