@@ -22,7 +22,7 @@ def scrape_article(url):
 
         max_retries = 3  # Number of retries
         for attempt in range(max_retries):
-            page.goto(url, timeout=25000)
+            page.goto(url, timeout=30000)
 
             # Wait for the target text to load
             selector = "div.field.field-name-body.field-type-text-with-summary.field-label-hidden"
