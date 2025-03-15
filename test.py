@@ -1,18 +1,14 @@
-import subprocess
+from transformers import pipeline
 
-def main():
+def download_distilbart_cnn():
+    """Downloads the distilbart-cnn-12-6 model to the local cache."""
     try:
-        process = subprocess.Popen(
-            ["cmd", "/c", "echo Hello from subprocess"],
-            stdout=subprocess.PIPE,
-            stderr=subprocess.PIPE
-        )
-        stdout, stderr = process.communicate()
-        print("Subprocess Output:", stdout.decode())
-        if stderr:
-            print("Subprocess Error:", stderr.decode())
+        summarizer = pipeline("summarization", model="sshleifer/distilbart-cnn-12-6")
+        print("distilbart-cnn-12-6 model downloaded successfully!")
     except Exception as e:
-        print("An error occurred:", e)
+        print(f"Error downloading model: {e}")
 
 if __name__ == "__main__":
-    main()
+    download_distilbart_cnn()
+
+    

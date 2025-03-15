@@ -26,6 +26,7 @@ subcategories = {
 
 
 #Crawled Pages
-page 0-2, 342, 
+"https://www.girlschase.com/insights?redirect=/newmax.click&page="
+page 0-3, 342, 
 
 "https://www.girlschase.com/start-here" - how-to
